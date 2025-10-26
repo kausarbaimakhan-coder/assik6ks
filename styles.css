@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+h1, h2, h3 {
+    color: #000000;
+}
+
+button {
+    margin: 5px;
+    padding: 7px 12px;
+    cursor: pointer;
+    border: none;
+    background-color: #f6a3ce;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #fbc3e7;
+}
+
+#styleBox {
+    border: 1px solid #fbc3e7;
+    padding: 10px;
+    max-width: 300px;
+    margin-top: 10px;
+}
+
+#colorBox {
+    width: 150px;
+    height: 150px;
+    background-color: #f6a3ce;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+#colorBox p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#taskList li.completed {
+    text-decoration: line-through;
+    color: rgb(165, 66, 117);
+}
